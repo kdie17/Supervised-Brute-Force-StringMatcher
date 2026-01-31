@@ -1,2 +1,2 @@
 # Supervised-Brute-Force-StringMatcher
-This repository contains a string matching system built for research. It enhances the traditional brute force algorithm by adding a supervised learning layer.
+This repository contains a string matching system built for research. It enhances the traditional brute force algorithm by adding a supervised learning layer. Unlike standard search methods that check every character blindly, this system "learns" the pattern before the search begins. It uses a training phase to identify the unique letters and the mathematical weight of the target word. During the search, two specialized guards—the Vocabulary Guard and the Checksum Guard—use this learned data to block unnecessary comparisons and reduce the total workload.
