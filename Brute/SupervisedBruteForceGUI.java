@@ -13,7 +13,7 @@ public class SupervisedBruteForceGUI extends JFrame {
     private JTextArea interpretationArea;
 
     public SupervisedBruteForceGUI() {
-        // Aligned with Research Title
+    
         setTitle("Supervised Learning-Based Enhancement of Brute Force String Matching");
         setSize(900, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -88,7 +88,7 @@ public class SupervisedBruteForceGUI extends JFrame {
         long endBF = System.nanoTime();
 
         // 2. Experimental Group: Supervised Enhancement
-        // This follows your "Novelty" section by integrating learned info
+
         long startSup = System.nanoTime();
         Result supervisedResult = supervisedMatch(text, pattern);
         long endSup = System.nanoTime();
@@ -115,7 +115,7 @@ public class SupervisedBruteForceGUI extends JFrame {
         int count = 0, vocabBlocks = 0, checksumBlocks = 0;
         int n = text.length(), m = pattern.length();
 
-        // TRAINING PHASE (The "Learned Information" mentioned in your Novelty section)
+        // TRAINING PHASE (The "Learned Information")
         Set<Character> learnedVocab = new HashSet<>();
         long learnedChecksum = 0;
         for (char c : pattern.toCharArray()) {
@@ -160,7 +160,7 @@ public class SupervisedBruteForceGUI extends JFrame {
         double gain = ((double)(control.comparisons - exp.comparisons) / control.comparisons) * 100;
         tableModel.addRow(new Object[]{"Experimental (Supervised)", "100.0", exp.comparisons, supTime, String.format("%.2f%%", gain)});
 
-        // Analysis aligned with your Significance of Study
+    
         StringBuilder sb = new StringBuilder();
         sb.append("RESEARCH ANALYSIS REPORT\n");
         sb.append("------------------------------------------------------------\n");
@@ -189,4 +189,5 @@ public class SupervisedBruteForceGUI extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new SupervisedBruteForceGUI().setVisible(true));
     }
+
 }
