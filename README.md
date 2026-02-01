@@ -17,8 +17,9 @@ This project aims to:
 
 ## Understanding the Results
 When running trials, you will see two main metrics:
-Control (Standard): The baseline performance of a "blind" search.
-Experimental (Supervised): The performance of the system guided by the guards.
+- Control (Standard): The baseline performance of a "blind" search.
+- Experimental (Supervised): The performance of the system guided by the guards.
+
 Note on Efficiency: If the Efficiency Boost is negative, it indicates Overhead Dominance. This means the pattern was too short to justify the "cost" of the supervisor's thinking time
 
 ### NOTE:
