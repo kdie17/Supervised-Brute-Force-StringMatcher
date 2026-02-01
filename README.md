@@ -19,10 +19,9 @@ This project aims to:
 When running trials, you will see two main metrics:
 Control (Standard): The baseline performance of a "blind" search.
 Experimental (Supervised): The performance of the system guided by the guards.
-Note on Efficiency: If the Efficiency Boost is negative, it indicates Overhead Dominance. This means the pattern was too short to justify the "cost" of the supervisor's thinking time.
+Note on Efficiency: If the Efficiency Boost is negative, it indicates Overhead Dominance. This means the pattern was too short to justify the "cost" of the supervisor's thinking time
 
-## How to Use
-1. Source Text: Paste your dataset here.
-2. Target Pattern: Enter the word you are looking for.
-3. Analyze: Click "Train & Execute" to see the "Learned Information" in action.
-4. Interpretation: Read the bottom report for a plain-English breakdown of how many checks the guards blocked.
+### NOTE:
+IF THE CODE DOES NOT RUN, TYPE THIS COMMAND IN THE TERMINAL
+STEP 1: javac SupervisedBruteForceGUI.java
+STEP 2: java SupervisedBruteForceGUI
