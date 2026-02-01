@@ -23,5 +23,6 @@ Note on Efficiency: If the Efficiency Boost is negative, it indicates Overhead D
 
 ### NOTE:
 IF THE CODE DOES NOT RUN, TYPE THIS COMMAND IN THE TERMINAL
-STEP 1: javac SupervisedBruteForceGUI.java
-STEP 2: java SupervisedBruteForceGUI
+
+* STEP 1: type first javac SupervisedBruteForceGUI.java then press enter once done
+* STEP 2: then type java SupervisedBruteForceGUI then hit enter
